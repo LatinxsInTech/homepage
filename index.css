@@ -4,6 +4,8 @@ body {
   height: 100%;
 }
 
+
+
 body {
     display: flex;
     flex-direction: column;
@@ -19,6 +21,10 @@ body {
     animation-direction: alternate;
 }
 
+p {
+  font-size: 20px;
+}
+
 @keyframes myanimation {
   0% {background-color: #d61e42;}
   25%{background-color:#1b8a3b;}
@@ -32,12 +38,22 @@ body {
     body {
         font-size: 50px;
     }
+
+    p {
+      margin-top: 0px;
+      font-size: 20px;
+    }
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
     body {
         font-size: 55px;
+    }
+
+    p {
+      margin-top: 0px;
+      font-size: 20px;
     }
   }
   
@@ -46,12 +62,22 @@ body {
     body {
         font-size: 60px;
     }
+
+    p {
+      margin-top: 0px;
+      font-size: 20px;
+    }
   }
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
     body {
         font-size: 70px;
+    }
+
+    p {
+      margin-top: 0px;
+      font-size: 20px;
     }
   }
     
